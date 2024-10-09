@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="mainBox">
+        <div id="upper">
+            <div id="visor">
+                <p id="valorCalculo"></p>
+            </div>
+            <button class="btn" id="clear" onclick="clearBtn()">C</button>
+        </div>
+        <div id="botoesBox">
+            <div id="botoes">
+                <button class="btn" id="" onclick="typeNumber(this)">7</button>
+                <button class="btn" id="" onclick="typeNumber(this)">8</button>
+                <button class="btn" id="" onclick="typeNumber(this)">9</button>
+                <button class="btn" id="" onclick="typeOperator(this)">/</button>
+                <button class="btn" id="" onclick="typeNumber(this)">4</button>
+                <button class="btn" id="" onclick="typeNumber(this)">5</button>
+                <button class="btn" id="" onclick="typeNumber(this)">6</button>
+                <button class="btn" id="" onclick="typeOperator(this)">*</button>
+                <button class="btn" id="" onclick="typeNumber(this)">1</button>
+                <button class="btn" id="" onclick="typeNumber(this)">2</button>
+                <button class="btn" id="" onclick="typeNumber(this)">3</button>
+                <button class="btn" id="" onclick="typeOperator(this)">-</button>
+                <button class="btn" id="" onclick="typeNumber(this)">0</button>
+                <button class="btn" id="" onclick="typeNumber(this)">.</button>
+                <button class="btn" id="" onclick="evalOperation()">=</button>
+                <button class="btn" id="" onclick="typeOperator(this)">+</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
