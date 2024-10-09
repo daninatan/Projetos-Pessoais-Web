@@ -35,3 +35,27 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+#convertBtn{
+    background-color: #F5A623;
+    border-radius: 2vh;
+    width: 15%;
+    height: 10vh;
+    font-size: 3vh;
+    max-width: 200px;
+}
+
+#convertBtn:hover{
+    background-color: #f8be62;
+}
+
+#conversionBox{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+#conversionText{
+    color: #333333;
+    font-size: 40px;
+}
