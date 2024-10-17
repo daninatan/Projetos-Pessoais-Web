@@ -23,6 +23,10 @@ body{
 }
 
 #mainBoxConversion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: black;
     border-style: groove;
     width: 90vw;
@@ -31,31 +35,26 @@ body{
 }
 
 #select{
+    width: fit-content;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-#convertBtn{
-    background-color: #F5A623;
-    border-radius: 2vh;
-    width: 15%;
-    height: 10vh;
-    font-size: 3vh;
-    max-width: 200px;
+.quantity{
+    width: 200px;
+    height: 60px;
+    margin-right: 40px;
 }
 
-#convertBtn:hover{
-    background-color: #f8be62;
+#secondCurrency{
+    margin-top: 120px;
 }
 
 #conversionBox{
-    margin-top: 20vh;
+    width: 100vh;
+    margin-top: 10vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-#conversionText{
-    color: #333333;
-    font-size: 40px;
+    align-items: center;
 }
